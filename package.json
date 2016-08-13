@@ -4,6 +4,7 @@
   "description": "Testing node with express and graphql",
   "main": "index.js",
   "scripts": {
+    "postinstall": "typings install",
     "test": "npm test",
     "build": "tsc",
     "build:w": "tsc --watch",
