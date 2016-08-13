@@ -1,0 +1,10 @@
+{
+  "globalDependencies": {
+    "node": "registry:dt/node#6.0.0+20160807145350"
+  },
+  "dependencies": {
+    "body-parser": "registry:npm/body-parser#1.15.2+20160810230825",
+    "express": "registry:npm/express#4.14.0+20160810205701",
+    "mongoose": "registry:npm/mongoose#4.3.5+20160628072220"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "node-express-graphql",
+  "version": "1.0.0",
+  "description": "Testing node with express and graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "tsc",
+    "build:w": "tsc --watch",
+    "server": "npm run build && node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@risingstack/graffiti": "^3.1.1",
+    "@risingstack/graffiti-mongoose": "^5.2.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "graffiti": "^0.1.7",
+    "graphql": "^0.6.2",
+    "http": "0.0.0",
+    "mongodb": "^2.2.5",
+    "mongoose": "^4.5.8"
+  },
+  "devDependencies": {
+    "babel-register": "^6.11.6",
+    "http-server": "^0.9.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
+  }
+}
