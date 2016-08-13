@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "typings install",
-    "test": "npm test",
+    "test": "echo \"No tests specified\" && exit 1",
     "build": "tsc",
     "build:w": "tsc --watch",
     "server": "npm run build && node server.js"
